@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+
+  align-items: center;
+  flex-direction: column;
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+.container > ul {
+  display: flex;
+  gap: 40px;
+
+  margin-top: 50px;
+}
+
+.container > ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 150px;
+  height: 50px;
+
+  border-radius: 20px;
+
+  background-color: rgb(169, 204, 32);
+
+  transition: all 0.2s;
+}
+
+.container > ul li:hover {
+  background-color: rgb(228, 244, 13);
+}
+
+.container > ul li a {
+  text-align: center;
+  text-decoration: none;
+}
