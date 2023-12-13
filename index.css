@@ -4,33 +4,41 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   display: flex;
-  gap: 50px;
-
   align-items: center;
   flex-direction: column;
-  width: 1280px;
-  height: 100vh;
+
+  gap: 50px;
+
+  width: clamp(320px, 100%, 1280px);
+  height: 100%;
   margin: 0 auto;
   background-color: #f1f1f1;
 }
 
-.container > ul {
+.list {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 
   margin-top: 50px;
 }
 
-.container > ul li {
+.list li {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 150px;
+  width: 160px;
   height: 50px;
+
+  padding-top: 10px;
 
   border-radius: 20px;
 
@@ -39,11 +47,28 @@
   transition: all 0.2s;
 }
 
-.container > ul li:hover {
+.list li:hover {
   background-color: rgb(228, 244, 13);
 }
 
-.container > ul li a {
+.list li a {
   text-align: center;
   text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.list-menu-clinic {
+  display: flex;
+
+  gap: 20px;
 }
