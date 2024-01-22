@@ -1,0 +1,46 @@
+/* Селектор 4-го рангу */
+
+/* p {
+  color: green;
+}
+
+article > p {
+  color: brown;
+}
+
+article > ul {
+  color: tomato;
+}
+
+a {
+  color: yellow;
+} */
+
+/* Селектор 3-го рангу */
+
+/* .post-title {
+  color: green;
+}
+
+.post .post-title {
+  color: orange;
+}
+
+.post > h1 {
+  color: red;
+} */
+
+/* Селектор 2-го рангу */
+/* #title {
+  color: orange;
+}
+
+.post .post-title {
+  color: red;
+} */
+
+/* Седектор 1-го рангу  */
+
+/* .container #text {
+  color: red !important;
+} */
