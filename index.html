@@ -11,16 +11,20 @@
     />
     <!-- Відповідає за назву вклвдки сторінки -->
     <title>Наша студія MoGo</title>
-    <link rel="stylesheet" href="#" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <p class="alert green">Поповнення рахунку виконано</p>
+    <p class="alert yellow">Увага, будуть змінені тарифи</p>
+    <p class="alert red">Помилка проведення транзакції</p>
+
     <!-- Шапка сайту -->
-    <header>
-      <a href="./index.html">MoGo</a>
+    <header class="header">
+      <a class="header-logo" href="./index.html">MoGo</a>
       <!-- Навігація -->
       <nav>
         <ul>
-          <li><a href="#">ABOUT</a></li>
+          <li><a href="./portfolio.html">ABOUT</a></li>
           <li><a href="#">SERVICE</a></li>
           <li><a href="#">WORK</a></li>
           <li><a href="#">BLOG</a></li>
@@ -28,17 +32,20 @@
         </ul>
       </nav>
       <!-- Контакти -->
-      <ul>
+      <ul class="header-list">
         <li>
-          <a href="tel:+380931268578">+38 096 111 11 11</a>
+          <a class="link" href="tel:+380931268578">+38 096 111 11 11</a>
         </li>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
       </ul>
     </header>
     <!-- Головна частина сайту -->
     <main>
+      <!-- Заголовок сторінки -->
       <section>
         <h2><span>We work with</span> Amazing Services</h2>
         <div>_______</div>
@@ -117,7 +124,7 @@
           <li>
             <figure>
               <img
-                src="./img/second-man.png"
+                src="./img/first-man.png"
                 alt="Фото колеги Christopher Campbell"
                 width="380"
               />

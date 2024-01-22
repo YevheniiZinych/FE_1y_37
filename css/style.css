@@ -1,0 +1,30 @@
+/* Селектор тегу */
+body {
+  color: black;
+}
+
+/* Селектор класу */
+.header {
+  /* background-color: aqua; */
+}
+
+.header-logo {
+  color: aquamarine;
+}
+
+/* Композиція класів */
+.alert {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
