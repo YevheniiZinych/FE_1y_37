@@ -1,0 +1,25 @@
+.link:link {
+  color: tomato;
+}
+
+.link:visited {
+  color: green;
+}
+
+/* .button:is(:hover, :focus) */
+.button:hover,
+.button:focus {
+  background-color: blue;
+  color: yellow;
+  -webkit-box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+  -moz-box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+  box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+
+  cursor: pointer;
+}
+
+.link:hover {
+  -webkit-box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+  -moz-box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+  box-shadow: 0px 14px 101px 10px rgba(189, 30, 189, 1);
+}

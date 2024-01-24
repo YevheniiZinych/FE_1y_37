@@ -1,8 +1,21 @@
-/* a {
-  color: blueviolet;
-  background-color: #f1f1f1;
+html {
+  box-sizing: border-box;
 }
 
-a {
-  color: green;
-} */
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: 2px solid #161616;
+  border-radius: 50%;
+}
