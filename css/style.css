@@ -1,21 +1,31 @@
 html {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-.list {
-  display: flex;
-  gap: 20px;
-  list-style: none;
+.font-400 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
 }
 
-.list li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.font-500 {
+  font-weight: 500;
+  /* font-size: 35px; */
+  text-align: justify;
+}
 
-  width: 40px;
-  height: 40px;
+.font-600 {
+  font-weight: 600;
+  /* font-size: 35px; */
+  text-align: justify;
+}
 
-  border: 2px solid #161616;
-  border-radius: 50%;
+.font-700 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.font-900 {
+  font-weight: 900;
+  font-size: 60px;
 }
