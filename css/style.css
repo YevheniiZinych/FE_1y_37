@@ -1,31 +1,64 @@
-html {
-  font-family: "Roboto", sans-serif;
+div {
+  text-transform: uppercase;
 }
 
-.font-400 {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
+/* text-decoration */
+.link-text-decoration {
+  /* text-decoration: none; */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  /* text-decoration: underline; */
 }
 
-.font-500 {
-  font-weight: 500;
-  /* font-size: 35px; */
-  text-align: justify;
+/* text-transform */
+.site-nav-text-transform .link-text-transform {
+  /* text-transform: uppercase; */
+  text-transform: lowercase;
 }
 
-.font-600 {
-  font-weight: 600;
-  /* font-size: 35px; */
-  text-align: justify;
+/* text-align */
+.post-text-align .post-title {
+  /* text-align: center; */
+  /* text-align: end; */
+  text-align: start;
 }
 
-.font-700 {
-  font-weight: 700;
-  font-size: 40px;
+/* text-indent */
+.post-text-indent .post-text {
+  text-indent: 10%;
+}
+/*  line-height*/
+
+.text-line-height {
+  line-height: 30px;
 }
 
-.font-900 {
-  font-weight: 900;
-  font-size: 60px;
+/* letter-spacing*/
+.post-letter-spacing .post-text {
+  letter-spacing: 0.42px;
+}
+.post-letter-spacing .post-second-text {
+  letter-spacing: -3px;
+}
+
+/* text-shadow */
+.title-text-shadow:hover {
+  text-shadow: 17px -20px 2px rgba(197, 83, 83, 0.59);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ::first-letter */
+pre {
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-size: 32px;
+  color: #f44336;
+}
+
+.list {
+  list-style-type: "😊";
 }

@@ -4,14 +4,16 @@
 
 Що будемо вчити:
 
-1. Розбір сторінку портфоліо
+1. Оформлення тексту
 
-2. Підключення сторонніх шрифтів до розмітки
+- text-decoration
+- text-transform
+- text-indent
+- white-space
+- word-break
+- word-wrap
 
-3. Властивості шрифту Font
+2. Псевдоелементи тексту
 
-   - font-weight - насиченість шрифта
-   - font-style - накреслення шрифта
-   - font-size - розмір шрифта
-   - text-align - вирівнювання тексту
-   - vertical-align - вертикальне вирівнювання
+- ::first-letter
+- ::selection​
