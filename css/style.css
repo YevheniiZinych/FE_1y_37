@@ -1,0 +1,16 @@
+:root {
+  --main-color: rgb(117, 117, 117);
+  --second-color: rgb(255, 255, 255);
+}
+
+.list {
+  color: var(--main-color);
+}
+
+.item {
+  color: var(--second-color);
+}
+
+.article {
+  color: var(--main-color);
+}
