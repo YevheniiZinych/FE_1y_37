@@ -1,16 +1,20 @@
 :root {
-  --main-color: rgb(117, 117, 117);
-  --second-color: rgb(255, 255, 255);
+  --orange-color: #f0b890;
+
+  --height: 200px;
 }
 
-.list {
-  color: var(--main-color);
+.text-1 {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid var(--orange-color);
+
+  margin-bottom: 100px;
+  /* outline: 1px solid red; */
 }
 
-.item {
-  color: var(--second-color);
-}
-
-.article {
-  color: var(--main-color);
+.text-2 {
+  outline: 1px solid var(--orange-color);
 }
