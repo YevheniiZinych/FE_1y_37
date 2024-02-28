@@ -1,84 +1,23 @@
-.box {
-  display: inline-block;
-  width: 200px;
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
 
-  margin-bottom: 20px;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 
-  outline: 1px solid red;
+  outline: 1px solid green;
+}
 
-  /* margin-left: auto;
-  margin-right: auto; */
+.header {
+  margin-bottom: 92px;
+}
 
+.load-btn {
+  display: block;
   margin: 0 auto;
-
-  /* border-width: 2px;
-  border-style: solid;
-  border-color: blueviolet; */
-
-  /* border: 2px solid blueviolet; */
-  /* border-radius: 30%; */
-
-  /* border-top-left-radius: 20%;
-  border-bottom-right-radius: 20%; */
-
-  /* border-top-right-radius: 20%;
-  border-bottom-left-radius: 20%; */
-
-  /* border-top-width: 3px;
-  border-top-style: dotted;
-  border-top-color: aqua;
-
-  border-left-width: 3px;
-  border-left-style: double;
-  border-left-color: blueviolet; */
-
-  /* padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px; */
-
-  /* padding: 20px; */
-
-  /* padding: 20px 20px 20px 20px; */
-
-  /* padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px; */
-
-  /* padding: 10px 20px; */
-}
-
-.box-2 {
-  width: 200px;
-  outline: 2px solid tomato;
-}
-
-.outer-box {
-  width: 200px;
-  height: 200px;
-  background-color: teal;
-}
-
-.inner-box {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin-top: 40px;
-  background-color: palevioletred;
-}
-
-.link {
-  display: inline-block;
-  background-color: aqua;
-  border: 1px solid black;
-
-  height: 30px;
-  width: 80px;
-
-  padding-top: 5px;
-
-  text-align: center;
-
-  margin-right: 20px;
 }
