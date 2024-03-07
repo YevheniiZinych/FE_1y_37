@@ -4,13 +4,7 @@
 
 Що будемо вчити:
 
-1. Основні концепції Flexbox
-   - flex container
-   - flex element
-2. Властивості Flex-контейнеру
-   - display​
-   - flex-direction​
-   - justify-content
+1. Властивості Flex-контейнеру
    - align-items​
-   - flex-wrap
    - align-content​
+2. Практика
