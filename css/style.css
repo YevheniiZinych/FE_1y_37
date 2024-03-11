@@ -1,1 +1,6 @@
-
+.container {
+  width: 906px;
+  margin: 0 auto;
+  padding: 0 15;
+  outline: 1px solid red;
+}
