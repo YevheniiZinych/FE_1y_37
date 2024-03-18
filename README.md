@@ -1,10 +1,14 @@
 # FE_1y_37
 
-# Тема 13. Flex-box. Вирівнювання та розташування flex-елементів
+# Тема 15. Flex-box. Порядок та розміри flex-елементів. Техніка grids
 
 Що будемо вчити:
 
-1. Властивості Flex-контейнеру
-   - align-items​
-   - align-content​
-2. Практика
+1. Властивості flex-елементів:
+
+- Flex-basis
+- Flex-grow
+- Flex-shrink
+- Flex
+- align-self
+- order

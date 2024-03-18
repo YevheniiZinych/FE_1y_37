@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-grow</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="nav-link" href="./flexBasis.html">Flex-basis</a>
+          </li>
+          <li class="header-item">
+            <a class="nav-link nav_link--active" href="./flexGrow.html"
+              >Flex-grow</a
+            >
+          </li>
+          <li class="header-item">
+            <a class="nav-link" href="./flexShrink.html">Flex-shrink</a>
+          </li>
+          <li class="header-item">
+            <a class="nav-link" href="./alignSelf.html">Align-self</a>
+          </li>
+          <li class="header-item">
+            <a class="nav-link" href="./order.html">Order</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- example sidebar -->
+      <div class="container flex-grow">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+      </div>
+      <!-- example  footer card-->
+      <div class="container flex-card">
+        <div class="card">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, quos? Aut sed aspernatur fuga, facere voluptate sint
+            enim qui ad exercitationem voluptatibus alias impedit, cum quae
+            officia nisi eius nihil?
+          </div>
+          <button class="btn">Click me</button>
+        </div>
+        <div class="card">
+          <div class="text" id="ex">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium, quos? Aut sed aspernatur fuga, facere voluptate sint
+            enim qui ad exercitationem voluptatibus alias impedit, cum quae
+            officia nisi eius nihil?
+          </div>
+          <button class="btn">Click me</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
