@@ -136,3 +136,86 @@
 
 .button:is(:hover, :focus) {
 }
+
+/* Align self */
+
+.flex-self {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  text-align: center;
+
+  color: aliceblue;
+
+  font-size: 34px;
+}
+
+.item {
+  flex-basis: 100px;
+  background-color: brown;
+}
+
+.item-1 {
+  align-self: stretch;
+}
+
+.item-2 {
+  align-self: flex-start;
+}
+
+.item-3 {
+  align-self: flex-end;
+}
+
+.item-4 {
+  align-self: center;
+}
+
+/* Order */
+.flex-order {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  text-align: center;
+  color: aliceblue;
+}
+
+.order {
+  flex-basis: 100px;
+  height: 100px;
+  background-color: brown;
+  line-height: 100px;
+  vertical-align: center;
+}
+
+.order-5 {
+  order: -2;
+}
+
+.order-1 {
+  order: -3;
+}
+
+.order-3 {
+  order: -1;
+}
+
+/* Grid */
+
+.flex-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* column-gap: 15px;
+  row-gap: 30px; */
+}
+
+.grid {
+  flex-basis: calc((100% - 2 * 10px) / 3);
+  height: 200px;
+  background-color: brown;
+}

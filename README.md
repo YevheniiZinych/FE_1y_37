@@ -6,9 +6,12 @@
 
 1. Властивості flex-елементів:
 
-- Flex-basis
-- Flex-grow
-- Flex-shrink
-- Flex
-- align-self
-- order
+   - align-self​
+   - order
+
+2. Техніка grids - cітка елементів
+
+   - Властивість gap
+   - column-gap
+   - row-gap
+   - розміщення елементів через calc()
