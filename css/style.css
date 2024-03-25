@@ -1,221 +1,72 @@
 .container {
   width: 630px;
-  height: 400px;
+  /* height: 400px; */
   margin: 0 auto;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
 
-  overflow: hidden;
-  resize: both;
+  /* overflow: hidden;
+  resize: both; */
 
-  outline: 1px dashed red;
-  background: rgba(255, 0, 0, 0.2);
+  /* outline: 1px dashed red; */
+  /* background: rgba(255, 0, 0, 0.2); */
 }
 
-/* Header */
-.header {
-  margin-bottom: 50px;
+p {
+  margin-bottom: 30px;
 }
-.header-list {
+
+/* ::first-letter */
+.text-first::first-letter {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.first-span {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* ::first-line */
+.text-line::first-line {
+  text-decoration: underline;
+  color: red;
+}
+
+/* ::selection */
+.text-selection::selection {
+  color: aliceblue;
+  background-color: black;
+}
+
+/* ::after and ::before */
+.pseudo-link {
   display: flex;
-  justify-content: center;
-}
-
-.header-list > li:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-link {
   color: black;
 }
 
-.nav_link--active {
-  text-shadow: 4px -4px 2px rgba(240, 0, 0, 0.61);
+.pseudo-link::after,
+.pseudo-link::before {
+  display: none;
+  content: "";
+  width: 14px;
+  height: 14px;
+  margin-left: 16px;
+
+  background-size: contain;
 }
 
-/* Flex-basis */
-.basis-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.basis-item {
-  flex-basis: 200px;
-  height: 200px;
-  background-color: brown;
+.pseudo-link::after {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png");
 }
 
-.basis-item:not(:last-child) {
-  margin-right: 5px;
+.pseudo-link:hover::after,
+.pseudo-link:hover::before {
+  display: block;
+  color: blueviolet;
 }
 
-/* Flex-grow */
-.flex-grow {
-  display: flex;
-
-  text-align: center;
-
-  margin-bottom: 20px;
-}
-
-.sidebar {
-  flex-basis: 200px;
-  height: 300px;
-  background-color: aliceblue;
-  border-radius: 10px;
-  line-height: 300px;
-  vertical-align: middle;
-
-  margin-right: 10px;
-}
-
-.content {
-  background-color: aliceblue;
-  height: 300px;
-  border-radius: 10px;
-
-  flex-grow: 1;
-}
-
-.flex-card {
-  display: flex;
-  justify-content: center;
-
-  text-align: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 250px;
-
-  padding: 10px;
-
-  background-color: aliceblue;
-
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.card:not(:last-child) {
-  margin-right: 10px;
-}
-
-.text {
-  border: 2px dashed tomato;
-}
-
-.text#ex {
-  flex-grow: 1;
-}
-
-/* Flex-shrink */
-.shrink-flex {
-  display: flex;
-}
-
-/* flex: flex-grow flex-shrink flex-basis */
-.shrink-item {
-  /* flex-basis: 200px;
-  flex-shrink: 1; */
-  flex: 1 0 200px;
-  height: 200px;
-  background-color: brown;
-}
-
-.shrink-item#example {
-  flex-shrink: 10;
-}
-
-.shrink-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.button:hover,
-.button:focus {
-}
-
-.button:is(:hover, :focus) {
-}
-
-/* Align self */
-
-.flex-self {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-
-  text-align: center;
-
-  color: aliceblue;
-
-  font-size: 34px;
-}
-
-.item {
-  flex-basis: 100px;
-  background-color: brown;
-}
-
-.item-1 {
-  align-self: stretch;
-}
-
-.item-2 {
-  align-self: flex-start;
-}
-
-.item-3 {
-  align-self: flex-end;
-}
-
-.item-4 {
-  align-self: center;
-}
-
-/* Order */
-.flex-order {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-
-  text-align: center;
-  color: aliceblue;
-}
-
-.order {
-  flex-basis: 100px;
-  height: 100px;
-  background-color: brown;
-  line-height: 100px;
-  vertical-align: center;
-}
-
-.order-5 {
-  order: -2;
-}
-
-.order-1 {
-  order: -3;
-}
-
-.order-3 {
-  order: -1;
-}
-
-/* Grid */
-
-.flex-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  /* column-gap: 15px;
-  row-gap: 30px; */
-}
-
-.grid {
-  flex-basis: calc((100% - 2 * 10px) / 3);
-  height: 200px;
-  background-color: brown;
+.pseudo-link::before {
+  background-image: url("../img/red-arrow.png");
 }
