@@ -1,72 +1,10 @@
-.container {
-  width: 630px;
-  /* height: 400px; */
-  margin: 0 auto;
-  /* padding: 10px 15px; */
-
-  /* overflow: hidden;
-  resize: both; */
-
-  /* outline: 1px dashed red; */
-  /* background: rgba(255, 0, 0, 0.2); */
-}
-
-p {
-  margin-bottom: 30px;
-}
-
-/* ::first-letter */
-.text-first::first-letter {
-  font-family: "Edu NSW ACT Foundation", cursive;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.first-span {
-  font-family: "Edu NSW ACT Foundation", cursive;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-/* ::first-line */
-.text-line::first-line {
-  text-decoration: underline;
-  color: red;
-}
-
-/* ::selection */
-.text-selection::selection {
-  color: aliceblue;
-  background-color: black;
-}
-
-/* ::after and ::before */
-.pseudo-link {
+.nav {
   display: flex;
-  color: black;
-}
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-.pseudo-link::after,
-.pseudo-link::before {
-  display: none;
-  content: "";
-  width: 14px;
-  height: 14px;
-  margin-left: 16px;
-
-  background-size: contain;
-}
-
-.pseudo-link::after {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/599/599516.png");
-}
-
-.pseudo-link:hover::after,
-.pseudo-link:hover::before {
-  display: block;
-  color: blueviolet;
-}
-
-.pseudo-link::before {
-  background-image: url("../img/red-arrow.png");
+  font-size: 34px;
 }

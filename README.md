@@ -4,18 +4,15 @@
 
 Що будемо вчити:
 
-1. Одиниці виміру:
+1. Властивості фону - background
 
-- px;
-- %
-- vh та vw
-- em
-- rem
+- background-color
+- background-image
+- background-repeat
+- background-position
+- background-size
+- background-attachment
+- background-clip
+- background-origin
 
-2. Псевдоелементи
-
-- ::after
-- ::before
-- ::selection
-- ::first-letter
-- ::first-line
+2. Практика

@@ -1,0 +1,33 @@
+/* .text {
+  padding: 30px;
+  text-align: justify;
+  background-image: url("https://cdn.pixabay.com/photo/2020/10/07/10/51/mountains-5634817_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
+} */
+
+body {
+  background-image: url("../img/cat.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  margin: 200px auto;
+  padding: 20px;
+  text-align: justify;
+
+  background-image: url("../img/cat.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+
+  overflow: scroll;
+
+  outline: 1px solid red;
+}

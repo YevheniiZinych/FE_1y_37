@@ -1,0 +1,26 @@
+:root {
+  --bg-advantages-color: #f5f4fa;
+}
+
+.box {
+  margin: 100px auto;
+}
+
+p {
+  width: 270px;
+}
+
+.item::before {
+  content: " ";
+  display: block;
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--bg-advantages-color);
+
+  background-image: url("../img/Group.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
