@@ -1,18 +1,16 @@
 # FE_1y_37
 
-# Тема 16. Одиниці вимірювання. Псевдоелементи. Background
+# Тема 17 : “Контентні і декоративні зображення: властивості та відмінності. Декоративні елементи. Тінь”
 
 Що будемо вчити:
 
-1. Властивості фону - background
+1. Контентні і декоративні зображення
 
-- background-color
-- background-image
-- background-repeat
-- background-position
-- background-size
-- background-attachment
-- background-clip
-- background-origin
+2. Контентні зображення та їх властивості
 
-2. Практика
+- object-fit
+- object-position
+
+3. Формати зображень. Різниця між JPEG та PNG
+
+4. Оптимізація зображень

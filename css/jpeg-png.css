@@ -1,0 +1,20 @@
+img:not(:first-child) {
+  width: 200px;
+}
+
+img:first-child {
+  width: 400px;
+}
+
+img:nth-child(2) {
+  /* background-color: aqua; */
+  background-image: url("../img/fish.jpg");
+  background-position: center;
+  border-radius: 20px;
+}
+img:nth-child(3) {
+  background-color: blue;
+}
+img:nth-child(4) {
+  background-color: blueviolet;
+}

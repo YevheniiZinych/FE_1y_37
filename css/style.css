@@ -1,3 +1,7 @@
+.container {
+  width: 800px;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
