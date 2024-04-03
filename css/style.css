@@ -1,5 +1,17 @@
+body {
+  background-color: #f9f9fd;
+}
+
 .container {
-  width: 800px;
+  width: 600px;
+  height: 600px;
+
+  margin: 0 auto 30px;
+
+  overflow: hidden;
+  resize: both;
+
+  outline: 2px dashed tomato;
 }
 
 .nav {

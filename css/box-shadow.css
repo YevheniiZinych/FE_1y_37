@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 800px;
+
+  margin: 0 auto;
+}
+
+.post {
+  width: 500px;
+  height: 150px;
+
+  padding: 10px;
+
+  background-color: #f1f1f1;
+  border-radius: 20px;
+
+  margin-bottom: 50px;
+}
+
+.post.shadow {
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.post.internal {
+  box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.post.multiple {
+  box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green;
+}
