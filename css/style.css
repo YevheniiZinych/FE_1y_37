@@ -3,15 +3,18 @@ body {
 }
 
 .container {
-  width: 600px;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 20px);
 
-  margin: 0 auto 30px;
+  margin: 0 auto;
 
   overflow: hidden;
   resize: both;
 
-  outline: 2px dashed tomato;
+  /* outline: 2px dashed tomato; */
 }
 
 .nav {
