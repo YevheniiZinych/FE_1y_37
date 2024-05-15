@@ -27,3 +27,17 @@ body {
 
   font-size: 34px;
 }
+
+/* svg style */
+
+.icon {
+  border: 1px dashed black;
+  margin-right: 10px;
+  stroke: brown;
+  stroke-opacity: 0.3;
+}
+
+.icon:is(:hover, :focus) {
+  fill: rgb(182, 186, 129);
+  stroke-opacity: 1;
+}

@@ -10,13 +10,25 @@
 
 3. SVG-елементи
 
-- Елемент <svg>
-- Елемент <g>
-- Елемент <rect>
-- Елемент <circle>
-- Елемент <ellipse>
-- Елемент <line>
-- Елемент <polygon>
-- Елемент <path>
-- Елемент <symbol>
-- Елемент <use>
+- Елемент svg
+- Елемент g
+- Елемент rect
+- Елемент circle
+- Елемент ellipse
+- Елемент line
+- Елемент polygon
+- Елемент path
+- Елемент symbol
+- Елемент use
+
+4. SVG-документ
+
+- SVG-viewport
+- SVG-viewBox
+
+5. Оформлення фігур
+
+- fill
+- stroke
+- stroke-width
+- stroke-opacity
