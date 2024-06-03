@@ -1,3 +1,67 @@
 body {
   background-color: #f9f9fd;
 }
+
+input {
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.checkbox:checked {
+  outline: 2px dashed green;
+  outline-offset: 2px;
+}
+
+.number:out-of-range {
+  border-color: red;
+}
+
+.number:in-range {
+  border-color: green;
+}
+
+/* input:required {
+  border-color: red;
+} */
+
+.password:valid {
+  border-color: green;
+}
+
+.password:invalid {
+  border-color: red;
+}
+
+.email:placeholder-shown {
+  border-color: orange;
+}
+
+.email:not(:placeholder-shown) {
+  border-color: blueviolet;
+}
+
+.email::placeholder {
+  color: blue;
+}
