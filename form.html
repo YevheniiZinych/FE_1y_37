@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+      }
+    </style>
+    <a href="./index.html">Back</a>
+    <form class="form">
+      <label class="label">
+        <span>Name</span>
+        <input
+          type="text"
+          required
+          minlength="3"
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          title="Користувач повинен мати і'мя та прізвище розділене пробілом"
+        />
+      </label>
+      <label class="label">
+        <span>Password</span>
+        <input
+          class="password"
+          type="password"
+          required
+          minlength="6"
+          maxlength="12"
+          placeholder="123456"
+        />
+      </label>
+      <label class="label">
+        <span>Email</span>
+        <input
+          class="email"
+          type="email"
+          required
+          placeholder="exemple@mail.com"
+        />
+      </label>
+      <label class="label">
+        <span>Number</span>
+        <input
+          class="number"
+          type="number"
+          value="0"
+          required
+          min="1"
+          max="10"
+        />
+      </label>
+      <label>
+        <span>Погоджуюсь з умовами обробки даних</span>
+        <input class="checkbox" type="checkbox" />
+      </label>
+
+      <button type="submit">Send</button>
+      <button type="submit" disabled>Send 2</button>
+    </form>
+  </body>
+</html>
