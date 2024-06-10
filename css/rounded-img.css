@@ -1,0 +1,14 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+.box {
+  width: 300px;
+  min-height: 200px;
+
+  margin: 0 auto;
+
+  border: 3px solid tomato;
+  border-radius: 20px;
+}

@@ -38,3 +38,22 @@ img {
 a {
   text-decoration: none;
 }
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+
+  height: 40px;
+  background-color: #f1f1f1;
+  box-shadow: 0 3px 7px rgba(31, 30, 30, 0.5);
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: beige;
+}
+
+.menu-item {
+  position: relative;
+
+  padding: 5px;
+
+  background-color: rgb(32, 92, 181);
+}
+
+/* Side menu */
