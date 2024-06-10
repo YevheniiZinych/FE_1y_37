@@ -14,9 +14,30 @@ main {
 .menu-item {
   position: relative;
 
+  height: 30px;
+
   padding: 5px;
 
+  overflow: hidden;
+
+  cursor: pointer;
+
   background-color: rgb(32, 92, 181);
+}
+
+.menu-item:hover {
+  overflow: visible;
+}
+
+.submenu {
+  position: absolute;
+
+  width: 100%;
+
+  left: 0;
+  top: 100%;
+
+  background-color: burlywood;
 }
 
 /* Side menu */
