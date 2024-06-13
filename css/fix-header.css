@@ -1,3 +1,18 @@
+body {
+  /* padding-top: 40px; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  /* position: fixed; */
+  top: 0;
+  height: 40px;
+  width: 100%;
+}
+
 .main-nav {
   display: flex;
   justify-content: center;
@@ -12,16 +27,16 @@
   background-color: aqua;
 }
 
-/* .main-nav {
-  position: absolute;
-  bottom: -50%;
-  left: 50%;
-  transform: translateX(-50%);
+/* up btn */
 
-  background-color: bisque;
-} */
+.up-btn {
+  position: fixed;
 
-/* .main-nav-list {
-  display: flex;
-  gap: 10px;
-} */
+  bottom: 30px;
+  right: 30px;
+}
+
+.up-arrow {
+  width: 30px;
+  height: 30px;
+}
