@@ -1,20 +1,25 @@
 # FE_1y_37
 
-# Тема 27 : Поширені юзкейси техніки позиціонування в сучасній розробці
+# Тема 28 : CSS-переходи: властивості transition & transform
 
 Що будемо вчити:
 
-1. Властивість overflow
+1. 1. CSS-переходи
 
-- Visible
-- Hidden
-- Scroll
-- Auto
-- overflow-x
-- overflow-y
+- transition-property: <властивість>
+- transition-duration: <час>
+- transition-timing-function: <функція розподілу часу>
+- transition-delay: <затримка>
+- animate button
 
-2. Заокруглене зображення
-3. Декоративний оверлей
-4. Випадаюче меню
-5. Фіксований header
-6. Навігація сайту через якорі та scroll-to-top
+2. 2D-трансформації - властивість transform
+
+- translate(x,y)
+- scale(x,y)
+- rotate(кут)
+- skew(x-кут, y-кут)
+- animate underline
+- Центрування елемента
+- Точка трансформації
+
+3. Перспектива

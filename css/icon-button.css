@@ -1,0 +1,13 @@
+.btn {
+  padding: 20px 60px;
+
+  border: none;
+  border-radius: 3px;
+
+  background-color: aqua;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(45, 201, 60);
+}
