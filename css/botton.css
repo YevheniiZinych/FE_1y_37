@@ -5,9 +5,19 @@
   border-radius: 3px;
 
   background-color: aqua;
+
+  color: inherit;
+
+  /* transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2000ms; */
+
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out 250ms;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: rgb(45, 201, 60);
+  color: aliceblue;
 }

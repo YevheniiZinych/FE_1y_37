@@ -1,13 +1,57 @@
 .btn {
+  position: relative;
   padding: 20px 60px;
+  display: inline-flex;
+
+  align-items: center;
 
   border: none;
   border-radius: 3px;
 
+  overflow: hidden;
+
   background-color: aqua;
+
+  transition: background-color 250ms ease-in-out;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: rgb(45, 201, 60);
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  transition: transform 250ms ease-in-out;
+}
+
+.btn::before {
+  margin-right: 5px;
+
+  background-image: url(../img/bird.svg);
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  transform: translateY(-45px);
+}
+
+.btn::after {
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(calc(-50% + 45px));
+
+  background-image: url(../img/cat.svg);
+}
+
+.btn:hover::after,
+.btn:focus::after {
+  transform: translateY(-50%);
 }

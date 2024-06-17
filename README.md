@@ -4,8 +4,9 @@
 
 Що будемо вчити:
 
-1. 1. CSS-переходи
+1. CSS-переходи
 
+- 2d vs 3d тнансофрмації
 - transition-property: <властивість>
 - transition-duration: <час>
 - transition-timing-function: <функція розподілу часу>
