@@ -1,26 +1,24 @@
 # FE_1y_37
 
-# Тема 28 : CSS-переходи: властивості transition & transform
+# Тема 30 : Анімація в CSS animation @keyframes
 
 Що будемо вчити:
 
-1. CSS-переходи
+1. Анімовані властивості
 
-- 2d vs 3d тнансофрмації
-- transition-property: <властивість>
-- transition-duration: <час>
-- transition-timing-function: <функція розподілу часу>
-- transition-delay: <затримка>
-- animate button
+- Як браузер відмальовує сайт
 
-2. 2D-трансформації - властивість transform
+2. CSS-анімація
 
-- translate(x,y)
-- scale(x,y)
-- rotate(кут)
-- skew(x-кут, y-кут)
-- animate underline
-- Центрування елемента
-- Точка трансформації
+- Оголошення анімації
+- Кадри анімації
 
-3. Перспектива
+3. Властивості анімації
+
+- animation-name
+- animation-duration
+- animation-timing-function
+- animation-delay
+- animation-iteration-count
+- animation-direction
+- animation-fill-mode
