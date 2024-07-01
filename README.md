@@ -11,7 +11,7 @@
 2. CSS-анімація
 
 - Оголошення анімації
-- Кадри анімації
+- Ключові кадри
 
 3. Властивості анімації
 
@@ -22,3 +22,4 @@
 - animation-iteration-count
 - animation-direction
 - animation-fill-mode
+- animation-play-state​
