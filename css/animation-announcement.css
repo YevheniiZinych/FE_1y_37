@@ -11,9 +11,29 @@ main {
   padding: 20px 45px;
 
   background-color: green;
+
+  /* animation-name: changeBgColor;
+  animation-duration: 3000ms;
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: infinite; */
+
+  animation: bouncing 0.5s var(--animation-timing-function) 0s infinite
+    alternate both;
 }
 
-/* @keyframes bouncing {
+@keyframes changeBgColor {
+  0% {
+    background-color: aqua;
+  }
+  50% {
+    background-color: blueviolet;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@keyframes bouncing {
   0% {
     bottom: 0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -23,4 +43,4 @@ main {
     bottom: 50px;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1);
   }
-} */
+}
