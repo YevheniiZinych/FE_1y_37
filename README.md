@@ -1,25 +1,14 @@
 # FE_1y_37
 
-# Тема 30 : Анімація в CSS animation @keyframes
+# Тема 31 : Препроцесори SASS/SCSS. Підключення до проєкту та імпорт файлів
 
 Що будемо вчити:
 
-1. Анімовані властивості
+1. Препроцесори
 
-- Як браузер відмальовує сайт
+- Sass
 
-2. CSS-анімація
-
-- Оголошення анімації
-- Ключові кадри
-
-3. Властивості анімації
-
-- animation-name
-- animation-duration
-- animation-timing-function
-- animation-delay
-- animation-iteration-count
-- animation-direction
-- animation-fill-mode
-- animation-play-state​
+2. Налаштування розширення Live sass compiler для VSCode
+3. Вкладеність з оператором конкатенції: & селектор та селектор & на прикладі стилів при ховері по предку
+4. Структура файла стилів, паршали та @import
+5. Вендорні префікси
