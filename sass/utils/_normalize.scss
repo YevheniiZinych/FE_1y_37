@@ -35,10 +35,9 @@ ol {
 }
 
 img {
-  display: inline-block;
+  display: block;
+  width: 100%;
   max-width: 100%;
-  height: 100%;
-  height: auto;
 }
 
 a {
@@ -49,45 +48,4 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: none;
-}
-
-/* Header */
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  font-size: 14px;
-
-  height: 40px;
-  background-color: #f1f1f1;
-  box-shadow: 0 3px 7px rgba(31, 30, 30, 0.5);
-}
-
-.nav-list {
-  display: flex;
-  gap: 10px;
-}
-
-/* Декоративна лінія поточної сторінки */
-
-.nav-link {
-  position: relative;
-  padding: 10px 0;
-}
-
-.nav-link.active::after {
-  position: absolute;
-  content: " ";
-  display: block;
-
-  bottom: 0;
-
-  width: 100%;
-
-  height: 3px;
-  border-radius: 5px;
-
-  background-color: rgb(68, 68, 231);
 }

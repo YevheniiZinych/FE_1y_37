@@ -1,9 +1,11 @@
 @import "./utils/variabels";
 @import "./utils/normalize";
+@import "./utils/base";
+@import "./utils/container";
+@import "./utils/breakpoints";
+@import "./utils/mixin";
 
-@import "./components/header";
-@import "./components/logo";
-@import "./components/hero";
-@import "./components/advantages";
-@import "./components/about";
-@import "./components/comand";
+@import "./components/section";
+@import "./components/page-header";
+@import "./components/company-logo";
+@import "./components/features";
