@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,64 +7,88 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <div class="container">
-        <nav class="nav">
-          <a class="company-logo" href="">Логотип</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section class="section features">
-        <div class="container">
-          <h2 class="section-title">Заголовок первой секции</h2>
-
-          <ul class="features-set">
-            <li class="features-item">1</li>
-            <li class="features-item">2</li>
-            <li class="features-item">3</li>
-            <li class="features-item">4</li>
-            <li class="features-item">5</li>
-            <li class="features-item">6</li>
+        <div class="header--flex">
+          <div class="header__logo">URLAUBSGLÜCK</div>
+          <ul class="header__user">
+            <li class="header_user-item">
+              <button type="button" class="header__user-btn" id="log-in">
+                Log in
+              </button>
+            </li>
+            <li class="header_user-item">
+              <button type="button" class="header__user-btn" id="sign-up">
+                Sign up
+              </button>
+            </li>
           </ul>
         </div>
-      </section>
-
-      <section class="section reviews">
+      </div>
+    </header>
+    <main>
+      <section class="hero">
         <div class="container">
-          <h2 class="section-title">Заголовок второй секции</h2>
-
-          <ul class="reviews-set">
-            <li class="reviews-item">1</li>
-            <li class="reviews-item">2</li>
-            <li class="reviews-item">3</li>
+          <h1 class="hero__title">Share your holiday dreams</h1>
+          <p class="hero__subtitle">
+            And find the perfect partner to fullfill it
+          </p>
+          <a class="hero__link-btn" href="#!">Find your holiday partner</a>
+        </div>
+      </section>
+      <section class="partner">
+        <div class="container">
+          <h2 class="partner__title">Meet a partner for your best holiday</h2>
+          <ul class="partner__list">
+            <li class="partner__item">
+              <img
+                src="./img/bradley-photo.png"
+                alt="Bradley Hunter"
+                class="partner__photo"
+              />
+              <h3 class="partner__name">Bradley Hunter</h3>
+              <p class="partner__legend">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
+            </li>
+            <li class="partner__item">
+              <img
+                src="img/lucas-photo.png"
+                alt="Lucas Marsha"
+                class="partner__photo"
+              />
+              <h3 class="partner__name">Lucas Marsha</h3>
+              <p class="partner__legend">
+                I get my inspiration from nature and objects around me. I have a
+                passion to colours, typography and skateboards.
+              </p>
+            </li>
+            <li class="partner__item">
+              <img
+                src="./img/heather-photo.png"
+                alt="Heather Walker"
+                class="partner__photo"
+              />
+              <h3 class="partner__name">Heather Walker</h3>
+              <p class="partner__legend">
+                I'm a happy person that loves cats and climbing on mountains.
+              </p>
+            </li>
+            <li class="partner__item">
+              <img
+                src="./img/lara-photo.png"
+                alt="Bradley Hunter"
+                class="partner__photo"
+              />
+              <h3 class="partner__name">Bradley Hunter</h3>
+              <p class="partner__legend">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
+            </li>
           </ul>
+          <button type="button" class="partner__btn">See other partners</button>
         </div>
       </section>
     </main>
-
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" data-modal-close>Закрыть</button>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-          facilis quas unde iusto excepturi, doloremque sed cum est quis modi ex
-          nihil natus ab impedit quisquam officia, suscipit dignissimos sit,
-          autem velit? Praesentium ipsum eligendi molestias a corporis vitae
-          autem dolores accusamus at eius voluptate, harum amet iusto deserunt
-          illum!
-        </p>
-        <p>
-          Officia voluptatibus voluptate aut tempora voluptas, repellat quos,
-          eius officiis consequatur suscipit molestiae ipsum, ut voluptatem
-          impedit. Nihil sint possimus obcaecati nulla tenetur quidem est,
-          molestias nobis facilis laudantium provident ab quos molestiae
-          voluptatibus necessitatibus nisi rem omnis? Mollitia, id corporis!
-          Reprehenderit error rerum assumenda! Dolorem sunt consequatur ad
-          eligendi.
-        </p>
-      </div>
-    </div>
   </body>
 </html>

@@ -1,6 +1,10 @@
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 1px solid red;
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
 }

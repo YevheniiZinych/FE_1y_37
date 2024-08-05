@@ -1,0 +1,40 @@
+.header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 19px;
+
+  &--flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__logo {
+    font-size: 18px;
+    line-height: calc(22 / 18);
+
+    color: $white-color;
+  }
+}
+
+.header__user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 104px;
+
+  &-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(17 / 14);
+
+    color: $white-color;
+  }
+
+  #sign-up {
+    padding: 10px 15px;
+    border: 2px solid $white-color;
+    border-radius: 20px;
+  }
+}
