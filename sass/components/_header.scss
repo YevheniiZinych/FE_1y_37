@@ -6,7 +6,8 @@
 
   &--flex {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__logo {
@@ -15,26 +16,35 @@
 
     color: $white-color;
   }
-}
 
-.header__user {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 104px;
-
-  &-btn {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: calc(17 / 14);
-
-    color: $white-color;
-  }
-
-  #sign-up {
-    padding: 10px 15px;
-    border: 2px solid $white-color;
-    border-radius: 20px;
+  &__menu {
+    display: flex;
+    gap: 10px;
   }
 }
+
+// .header__user {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 15px;
+//   margin-bottom: 104px;
+
+//   @media (min-width: $tablet) {
+//     margin-bottom: 0;
+//   }
+
+//   &-btn {
+//     font-size: 14px;
+//     font-weight: 700;
+//     line-height: calc(17 / 14);
+
+//     color: $white-color;
+//   }
+
+//   #sign-up {
+//     padding: 10px 15px;
+//     border: 2px solid $white-color;
+//     border-radius: 20px;
+//   }
+// }

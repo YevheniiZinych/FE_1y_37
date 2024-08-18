@@ -9,6 +9,24 @@
     line-height: calc(27 / 22);
   }
 
+  &__list {
+    @media (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+      row-gap: 63px;
+      column-gap: 53px;
+    }
+
+    @media (min-width: $desktop) {
+      flex-wrap: nowrap;
+
+      column-gap: 37px;
+    }
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -36,6 +54,10 @@
     line-height: calc(16 / 14);
 
     color: $subtitle-partner-color;
+
+    @media (min-width: $tablet) {
+      width: 240px;
+    }
   }
 
   &__btn {

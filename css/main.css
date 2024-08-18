@@ -57,9 +57,21 @@ button {
   margin: 0 auto;
   outline: 1px solid red;
 }
-@media screen and (min-width: 322px) {
+@media screen and (min-width: 320px) {
   .container {
-    width: 322px;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 49px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding: 0 250px;
   }
 }
 
@@ -81,40 +93,23 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header__logo {
   font-size: 18px;
   line-height: 1.2222222222;
   color: #ffffff;
 }
-
-.header__user {
+.header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 15px;
-  margin-bottom: 104px;
-}
-.header__user-btn {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.2142857143;
-  color: #ffffff;
-}
-.header__user #sign-up {
-  padding: 10px 15px;
-  border: 2px solid #ffffff;
-  border-radius: 20px;
+  gap: 10px;
 }
 
 .hero {
@@ -122,10 +117,36 @@ body {
   width: 322px;
   margin: 0 auto;
   padding-top: 180px;
-  padding-bottom: 138px;
   background: no-repeat url("../../img/bg-img.jpeg");
   background-size: cover;
   background-position: center;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 700px;
+    width: 768px;
+    padding-top: 140px;
+    background: no-repeat url("../../img/bg-img-desc.jpeg");
+  }
+}
+@media (min-width: 1440px) {
+  .hero {
+    width: 1440px;
+  }
+}
+@media (min-width: 768px) {
+  .hero--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .hero__title {
   width: 270px;
@@ -135,20 +156,41 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+@media (min-width: 768px) {
+  .hero__title {
+    width: 500px;
+    margin-bottom: 36px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2115384615;
+  }
+}
 .hero__subtitle {
   width: 247px;
-  margin: 0 auto 17px;
+  margin-bottom: 17px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.1666666667;
   color: #ffffff;
 }
+@media (min-width: 768px) {
+  .hero__subtitle {
+    font-size: 24px;
+    line-height: 1.1666666667;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__subtitle {
+    width: 428px;
+    margin-bottom: 33px;
+  }
+}
 .hero__link-btn {
   display: block;
   width: 282px;
   height: 43px;
-  padding: 13px 0;
+  padding: 10px 0;
   background-color: #ff4e50;
   border-radius: 20px;
   color: #ffffff;
@@ -162,6 +204,31 @@ body {
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 1.2272727273;
+}
+@media (min-width: 768px) {
+  .partner__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 63px;
+    -webkit-column-gap: 53px;
+       -moz-column-gap: 53px;
+            column-gap: 53px;
+  }
+}
+@media (min-width: 1440px) {
+  .partner__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-column-gap: 37px;
+       -moz-column-gap: 37px;
+            column-gap: 37px;
+  }
 }
 .partner__item {
   display: -webkit-box;
@@ -191,6 +258,11 @@ body {
   line-height: 1.1428571429;
   color: #666666;
 }
+@media (min-width: 768px) {
+  .partner__legend {
+    width: 240px;
+  }
+}
 .partner__btn {
   width: 280px;
   height: 40px;
@@ -200,4 +272,8 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2142857143;
+}
+
+.menu-container {
+  background-color: aqua;
 }/*# sourceMappingURL=main.css.map */
