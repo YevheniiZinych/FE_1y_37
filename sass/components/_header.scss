@@ -18,7 +18,19 @@
   }
 
   &__menu {
-    display: flex;
-    gap: 10px;
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+.menu-toggle {
+  display: none;
+
+  @media screen and (max-width: $tablet) {
+    display: block;
   }
 }
