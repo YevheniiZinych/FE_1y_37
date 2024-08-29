@@ -22,5 +22,3 @@
 6. Елемент picture
    - Різні формати зображення source
    - Кадрування
-     - https://www.html5rocks.com/en/tutorials/responsive/picture-element/resized-image@2X.png
-     - https://www.html5rocks.com/en/tutorials/responsive/picture-element/art-direction@2X.png
