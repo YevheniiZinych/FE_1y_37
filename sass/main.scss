@@ -1,11 +1,3 @@
-@import "./utils/fonts";
-@import "./utils/normalize";
-@import "./utils/vars";
-@import "./utils/breakpoints";
-@import "./utils/container";
-@import "./utils/base";
+@import "./utils/common";
 
-@import "./components/header";
-@import "./components/hero";
-@import "./components/partner";
-@import "./components/mobile-menu";
+@import "./components/responsive";
