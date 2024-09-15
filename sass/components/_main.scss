@@ -1,0 +1,13 @@
+.card {
+  text-align: center;
+}
+
+.row {
+  gap: 5px;
+}
+
+.col {
+  flex-basis: calc((100% - 2 * 5px) / 3);
+
+  padding: 0;
+}

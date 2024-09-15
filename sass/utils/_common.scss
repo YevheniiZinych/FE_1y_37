@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     sans-serif;
@@ -12,8 +20,29 @@ body {
   line-height: 1.5;
 }
 
+.main-wrapp {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
